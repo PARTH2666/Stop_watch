@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-image: url('/assets/img/black-chalk.jpg');
+   
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.stop_watch_container{
+width: 30%;
+box-shadow: 0 2px 7px #636262;
+border-radius: 5px;
+}
+
+.header{
+    display: flex;
+}
+
+.stop_watch{
+    width: 50%;
+    color: whitesmoke;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.stop_watch:active{
+  transform: scale(1.05);
+  transition: transform 1s ease-in-out;
+  box-shadow: 0 2px 7px #636262;
+}
+
+.timer{
+    width: 50%;
+    color: whitesmoke;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+}
+.watch_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.time{
+    margin: 15px;
+    color: whitesmoke;
+    font-size: 45px;
+}
+
+.controller{
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+
+.style_controller{
+    width: 30%;
+    cursor: pointer;
+    text-align: center;
+}
+
+.style_controller:active{
+    transform: scale(1.05);
+    transition: transform 1s ease-in-out;
+    box-shadow: 0 2px 7px #636262;
+  }
+
+button{
+    width: 30%;
+    cursor: pointer;
+    text-align: center;
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+    outline: none;
+}
+
+p{
+    font-size: 15px;
+    display: inline-block;
+}
